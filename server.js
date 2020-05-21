@@ -21,12 +21,6 @@ const makeDirRecursive = path => path
         return newPath
     }, '')
     
-{
-    const recurse = ([head, ...tail]) => {
-
-    }
-}
-
 // Chache Function
 const cacheRequest = async adress => {
     const { host, query, pathname } = urlParse(adress);
